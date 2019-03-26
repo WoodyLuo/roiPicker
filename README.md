@@ -24,8 +24,10 @@ It is written in Python and uses tkintter for its graphical interface.
 
 ## Features
 
-- [Ｏ] Image cropping and saving for rectangle.  
+- [Ｏ] Image cropping and saving for rectangle region.  
 - [Ｏ] GUI customization (predefined labels / class).  
+- [Ｏ] Can load an image file or whole image folder.
+- [Ｏ] Showing red rectangle by following mouse at canvas in real-time.
 
 ## Hotkey
 |        Hotkey (快捷鍵)      |           Function Explanations (功能說明)         |
@@ -67,11 +69,11 @@ git clone https://github.com/WoodyLuo/roiPicker.git
 
 Please remember that you must have a _Configure_ folder and a _Output_ folder under the **roiPicker.py**.    
 
->In **_configure_ folder** (在**_configure_**資料夾裡):  
+>In **_configure_ folder** (在_configure_資料夾裡):  
 >Must have a _classes.txt_ text file. **We can use the classes.txt file to set the category/class in a drop-down menu of user interface (UI).** 
 (必須有classes.txt文件。我們可以使用classes.txt文件設置用使用者介面(UI)的下拉式選單裡的類別。)  
   
->In **Output folder** (在**_Output_**資料夾裡):  
+>In **Output folder** (在_Output_資料夾裡):  
 >We will need to **create a folder _to save an image of region of interest (ROI)_.** And **the file folder name must be the same as the category/class name** which settin in the classes.txt file.  
 (我們需要創建一個資料夾用來儲存ROI影像。並且資料夾名稱必須與classes.txt文件設定的類別名稱相同。)  
 
@@ -110,6 +112,7 @@ Image annotation for polygon, rectangle, circle, line and point.
 Image annotation for rectangle.
 (Supports: YOLO, faster RCNN )  
 
+<br/>  
 
 ## Support
 Please report any questions and suggestions to [Woody Lo](mailto:ability1013@gmail.com).  
