@@ -67,12 +67,13 @@ git clone https://github.com/WoodyLuo/roiPicker.git
 
 Please remember that you must have a _Configure_ folder and a _Output_ folder under the **roiPicker.py**.    
 
->In **_configure_ folder**:  
->There must be a _classes.txt_ text file. **We can set the category of the drop-down menu of our User Interface, UI by using the _classes.txt_ file**.  
+>In **_configure_ folder** (在**_configure_**資料夾裡):  
+>Must have a _classes.txt_ text file. **We can use the classes.txt file to set the category/class in a drop-down menu of user interface (UI).** 
+(必須有classes.txt文件。我們可以使用classes.txt文件設置用使用者介面(UI)的下拉式選單裡的類別。)  
   
->In **Output資料夾**:  
->We will need to create a folder which is a saving folder of region of interest, ROI image. And **the file name must match the name of the catefory specified by _classes.txt_ file**.  
-  
+>In **Output folder** (在**_Output_**資料夾裡):  
+>We will need to **create a folder _to save an image of region of interest (ROI)_.** And **the file folder name must be the same as the category/class name** which settin in the classes.txt file.  
+(我們需要創建一個資料夾用來儲存ROI影像。並且資料夾名稱必須與classes.txt文件設定的類別名稱相同。)  
 
 <h4 align="center">
 <img src="gitIMG/roiPicker05.png" width="50%" /> <img src="gitIMG/roiPicker06.png" width="40%" />
